@@ -20,7 +20,7 @@ function InfoCard({ description, img, location, price, star, title, total }) {
         </div>
         <div className="font-semibold">{title}</div>
         <div className="text-xs text-gray-400">{description}</div>
-        <div className="text-right font-semibold md:mt-12">{price}</div>
+        <div className="text-right font-semibold lg:mt-12">{price}</div>
         <div className="md:mt-4">
           <div className="flex">
             <StarIcon className="text-red-500 h-6 w-6" />
