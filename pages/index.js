@@ -9,7 +9,7 @@ import SmallCard from "./components/SmallCard";
 export default function Home({ exploreData, cardData }) {
   console.log("testet", cardData);
   return (
-    <div className="">
+    <div className="w-full">
       <Head>
         <title>
           Airbnb with Chimpaji: Vacation Rentals, Cabins, Beach Houses, Unique
@@ -55,7 +55,7 @@ export default function Home({ exploreData, cardData }) {
           buttonText="Get Inspired"
         />
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -9,8 +9,8 @@ function Banner() {
         layout="fill"
         objectFit="cover"
       />
-      <div className="absolute w-full h-full flex flex-col items-start  justify-center pl-24">
-        <p className="text-6xl w-24 font-bold text-white ">
+      <div className="absolute w-full h-full flex flex-col items-start  justify-center pl-20 xl:pl-[25vh]">
+        <p className="sm:text-6xl text-xl w-28 font-bold text-white ">
           Olympian & Paralympian Online Experiences
         </p>
         <button className="text-black bg-white px-6 py-2  shadow-md rounded-full font-bold hover:shadow-xl my-6 active:scale-90 transition duration-150">
