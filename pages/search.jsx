@@ -26,7 +26,7 @@ function Search({ searchResults }) {
   return (
     <div className="h-screen">
       <Header placeholder={`${location} | ${range} | ${noOfGuests}`} guests />
-      <main className="max-w-7xl mx-auto px-4 mt-12 md:px-16 grid grid-cols-1 lg:grid-cols-2">
+      <main className="max-w-7xl mx-auto px-4 mt-12 md:px-16 grid grid-cols-1 lg:grid-cols-2 lg:space-x-4">
         <section>
           <p>
             300+ stays - {range} - {noOfGuests} guests
@@ -56,8 +56,10 @@ function Search({ searchResults }) {
             ))}
           </div>
         </section>
-        <section className="h-64">
-          <Map />
+        <section className="h-full">
+          <div className="relative h-full">
+            <Map searchResults={searchResults} />
+          </div>
         </section>
       </main>
       <Footer />
