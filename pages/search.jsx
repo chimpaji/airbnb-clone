@@ -9,6 +9,7 @@ const filterRecommends = [
 import { useRouter } from "next/router";
 import { format } from "date-fns";
 import InfoCard from "./components/InfoCard";
+import Map from "./components/Map";
 
 const { default: Footer } = require("./components/Footer");
 const { default: Header } = require("./components/Header");
@@ -25,12 +26,12 @@ function Search({ searchResults }) {
   return (
     <div className="h-screen">
       <Header placeholder={`${location} | ${range} | ${noOfGuests}`} guests />
-      <main className="max-w-7xl mx-auto px-4 mt-12 md:px-16">
+      <main className="max-w-7xl mx-auto px-4 mt-12 md:px-16 grid grid-cols-1 lg:grid-cols-2">
         <section>
           <p>
             300+ stays - {range} - {noOfGuests} guests
           </p>
-          <h1 className="text-3xl font-semibold  mt-2 mb-6">
+          <h1 className="text-3xl font-semibold  mt-2 mb-6 capitalize ">
             Stays in {location}
           </h1>
           <div className="hidden md:inline-flex space-x-4">
@@ -55,7 +56,9 @@ function Search({ searchResults }) {
             ))}
           </div>
         </section>
-        <section className="h-64"></section>
+        <section className="h-64">
+          <Map />
+        </section>
       </main>
       <Footer />
     </div>
