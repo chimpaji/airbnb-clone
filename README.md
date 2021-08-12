@@ -1,3 +1,25 @@
+# [Airbnb Clone](https://airbnb-clone-liard-iota.vercel.app/)
+
+Site: [https://airbnb-clone-2jdk881ra-chimpaji.vercel.app/](https://airbnb-clone-liard-iota.vercel.app/)
+
+![Airbnb Clone](https://media.giphy.com/media/6Yxc9seHAyTov5zgIb/giphy.gif)
+
+
+## Technology
+
+ - Next.js
+ - Tailwind
+ - Airbnb reactdate
+ - Mapbox
+
+## Features
+
+ - Responsive
+ - Search Places
+ - Select duration
+ - Show map on London
+ - Show pin on the specific location
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
