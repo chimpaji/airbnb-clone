@@ -2,7 +2,7 @@
 
 Site: [https://airbnb-clone-2jdk881ra-chimpaji.vercel.app/](https://airbnb-clone-liard-iota.vercel.app/)
 
-![Airbnb Clone](https://media.giphy.com/media/6Yxc9seHAyTov5zgIb/giphy.gif)
+![Airbnb Clone](https://media.giphy.com/media/itvJ8KQ6k3RrantBdA/giphy.gif)
 
 
 ## Technology
